@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client.iml" />
-      <module fileurl="file://E:\DEV\workspace-study\rpc-client\rpc-client.iml" filepath="E:\DEV\workspace-study\rpc-client\rpc-client.iml" />
     </modules>
   </component>
 </project>
