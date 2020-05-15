@@ -1,6 +1,6 @@
 package com.yp.v2;
 
-import com.yp.api.v1.RpcRequest;
+import com.yp.api.v2.RpcRequest;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -28,6 +28,7 @@ public class RemoteInvocationHandler implements InvocationHandler {
         request.setClassName(method.getDeclaringClass().getName());
         request.setMethodName(method.getName());
         request.setParameters(args);
+        request.setVersion("V1.0");
 
         RpcNetTransport netTransport = new RpcNetTransport(host, port);
         Object result = netTransport.send(request);

@@ -1,6 +1,7 @@
 package com.yp.v2;
 
-import com.yp.api.v1.RpcRequest;
+
+import com.yp.api.v2.RpcRequest;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
