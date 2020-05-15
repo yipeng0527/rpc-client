@@ -1,0 +1,4 @@
+com\yp\v1\App.class
+com\yp\v1\RemoteInvocationHandler.class
+com\yp\v1\RpcNetTransport.class
+com\yp\v1\RpcProxyClient.class
